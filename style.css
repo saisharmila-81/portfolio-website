@@ -1,0 +1,26 @@
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#home {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+.section {
+  min-height: 100vh;
+  padding: 120px 20px;
+  text-align: center;
+}
