@@ -1,22 +1,59 @@
-h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-h2 {
-  margin-bottom: 20px;
-}
-.card {
-  transition: 0.3s;
-}
-.card:hover {
-  transform: scale(1.05);
-}
-#home {
-  background: linear-gradient(to right, #667eea, #764ba2);
+/* BACKGROUND */
+body {
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
   color: white;
+  scroll-behavior: smooth;
 }
+/* NAVBAR */
+.navbar {
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+/* SECTION */
 .section {
   min-height: 100vh;
-  padding: 120px 20px;
-  text-align: center;
+  padding: 100px 20px;
+}
+/* GLASS CARD */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+/* PROFILE IMAGE */
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+/* SKILLS */
+.skill {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.15);
+}
+/* BUTTON */
+.btn {
+  border-radius: 25px;
+}
+/* HOVER EFFECT */
+.glass:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+#skills h3, #projects h3 {
+  font-weight: bold;
+}
+.form-control {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+}
+.form-control::placeholder {
+  color: #ddd;
+}
+.form-control:focus {
+  box-shadow: none;
+  background: rgba(255,255,255,0.15);
 }
